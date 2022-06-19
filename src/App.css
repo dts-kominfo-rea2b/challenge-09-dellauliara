@@ -1,4 +1,64 @@
 .App {
   text-align: center;
+
+  background-color: rgb(49, 91, 110);
+}
+.Header {
+  padding: 5px;
+  text-align: center;
+  background: #6996ad;
+  color: white;
+  font-size: 20px;
+
+}
+
+.item {
+  background-color: aliceblue;
   display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-bottom: 20px;
+  max-width: 1000px;
+}
+.image {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+  border:2px solid white;
+  
+ 
+}
+
+.aside {
+  display: block;
+margin-top: auto;
+margin-bottom: auto;
+padding-left: 30px;
+}
+.item, section, aside {
+  margin-top: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 10px;
+  padding-bottom: 7px;
+}
+.section {
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  display: block;
+  padding: 30px;
+}
+
+.nama{
+  font-size: 30px;
+}
+.phone-email{
+  font-size: 20px;
+}
+
+.bottom{
+  background-color: aliceblue;
+  height: 30px;
 }
